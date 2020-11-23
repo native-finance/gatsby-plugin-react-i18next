@@ -45,6 +45,9 @@
     "format": "prettier --write '**/*.{js,jsx,json,ts,tsx,md}'",
     "release": "release-it"
   },
+  "pre-commit": [
+    "prepare"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@types/bluebird": "^3.5.32",
